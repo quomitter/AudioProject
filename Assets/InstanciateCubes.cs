@@ -24,7 +24,7 @@ public class InstanciateCubes : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         for(int i = 0; i < 64; i++)
         {
